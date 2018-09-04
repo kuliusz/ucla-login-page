@@ -1,0 +1,40 @@
+html {
+    background: url("../images/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+#wrapper {
+    align-items: center;
+    display: flex;
+    min-height: 100%;
+}
+
+img {
+    position: absolute;
+    margin: 10% auto;
+    left: 0;
+    right: 0;
+}
+
+#loginPage {
+    background-color: rgba(250, 250, 250, .9);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#loginPage p {
+    margin: 0;
+}
+
+#loginPage form {
+    margin: 0;
+}
